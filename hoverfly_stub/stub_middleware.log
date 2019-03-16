@@ -1,0 +1,54 @@
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:API_Collection_and_Latency.csv doesn't have request - /core/{}/connect/token
+DEBUG:root:Setting Link Response Time to default value of .5 secs
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:API_Collection_and_Latency.csv doesn't have request - /core123/23456/connect/token
+DEBUG:root:Setting Link Response Time to default value of .5 secs
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:API_Collection_and_Latency.csv doesn't have request - /core1234/23456/connect/token
+DEBUG:root:Setting Link Response Time to default value of .5 secs
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv
+DEBUG:root:Request /core/23456/connect/token found, setting latency to 0.5 sec(s)
+DEBUG:root:sleeping for 0.5 second(s)
+DEBUG:root:latency_middleware is called
+DEBUG:root:Reading Latency csv

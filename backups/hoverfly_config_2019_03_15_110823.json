@@ -1,0 +1,238 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/get"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "GET"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "postman-echo.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "https"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": ""
+						}
+					],
+					"query": {
+						"source": [
+							{
+								"matcher": "exact",
+								"value": "newman-sample-github-collection"
+							}
+						]
+					}
+				},
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAAA4VQ0W6DMAz8lSmPVQ0U6ChIU39h2h+Y4AY0iKMkqNWq/fscqk3aXvZk2Xc+3d1doTdBdXcVePWaVKcsXRe0EHBxM4GZ4rj2oHmeSceJrfrcq5FwIL+93eDC/op+oAGc58iiMMboghIahyirk5EUSY+caV4EQa3JJWyX735WIKt5mKyRu/mY3P5poMuMkYShUY8kLmz0PCeTDNtJoG/5yO9kBcKqwWPZ9ICnAqE+FQW0h+IITftcVj1RWbatvK2BPKAhm2y8PjTeVhunhfIma7ODcH6FY5+YdV2lBlafXGxBuzz/mzA3FM+PQl/+rfMLcUAcUYMBAAA=",
+					"encodedBody": true,
+					"headers": {
+						"Connection": [
+							"close"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Fri, 15 Mar 2019 00:08:43 GMT"
+						],
+						"Etag": [
+							"W/\"183-UPAIVWB04klfDL5kNdt8Nkpp2PQ\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"nginx"
+						],
+						"Set-Cookie": [
+							"sails.sid=s%3AJSOaKt-oabFoThJf8MuoNBwNwJ6Epf8x.xfj%2B0YtGEFQuzUEZlNkv3GepYPtAfqFpcbj3unU%2FQw8; Path=/; HttpOnly"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/post"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "postman-echo.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "https"
+						}
+					],
+					"body": [
+						{
+							"matcher": "exact",
+							"value": "Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium..."
+						}
+					],
+					"query": {}
+				},
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAAA12RzW7bMBCEX0Ug4EtgypFl2LKBHhLUDuqibtI2h/S2JlcSbYpk+RMrCfLuXTlt0fZGfrM7Q+6+MPBNYKuX1zGTEIGt2PukQuZsSOgxg9QkzB5RZyL5kEhowWP0kGcfTKaTiMQgwz4zKDJHkkpdnudszGql8ZdzbX33dmoRJPoBs54TPoGXKLnzNlrKbmN0gXpbGyJd6RWxA8NRtDYXtiNFWBPRRK7RNLGlmvmSKAiBbui4mFz8uXI0wkplGuLNs3LjTGKtIeJgA6JFPph5q0k3lp/RXwnxySEpEfs4cRqUOWv2qAYaQOmQByXfhVF5tf36GT5GbmG/sd/abV19SnZ3fdqdtvO1q6s+7+vDaHp9+RBv1pu79Hy//q53x8fyBt3Dbbyqf2yc2B/KZO5H083dqaKk31+P9oiGAhH2shLzGa8ul0s+k/MF30+LmssFFNOiLEqJwyBSQM+hofdTz+2bx5dkoupwssiXeUE1/wze+qFyNisZbecQLGWZpDU5+WEu54WsJpP/N3EG7PUn6056Xj8CAAA=",
+					"encodedBody": true,
+					"headers": {
+						"Connection": [
+							"close"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Fri, 15 Mar 2019 00:08:45 GMT"
+						],
+						"Etag": [
+							"W/\"23f-/5eurgulZBHuOI7cX++v8QgkyaY\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"nginx"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						]
+					},
+					"templated": false
+				}
+			},
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/post"
+						}
+					],
+					"method": [
+						{
+							"matcher": "exact",
+							"value": "POST"
+						}
+					],
+					"destination": [
+						{
+							"matcher": "exact",
+							"value": "postman-echo.com"
+						}
+					],
+					"scheme": [
+						{
+							"matcher": "exact",
+							"value": "https"
+						}
+					],
+					"body": [
+						{
+							"matcher": "json",
+							"value": "{\"text\":\"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\"}"
+						}
+					],
+					"query": {}
+				},
+				"response": {
+					"status": 200,
+					"body": "H4sIAAAAAAAAA7VSy27bMBD8FYKAL0Eo2ZLiF9BDgtpBXdRN2uSQ3tbUSqItkywfsZog/96V0hRt770tZ2Z39sFnDq72fPn8cs5LCEARD9gFvuTvo/LMGh/RIYNYR2SP2DIZnY9ENOAwOEjYB83aKANhwLBjGiWzRKl4TJKEU91KtfjLojLu+Bo1CCW6HuadIPgErsRSWGeCIfMmBOs5yYzve6E2whG0QNmYRJojMdLogDqIFnUdGtLMx4SClGj7jLP07PdToJamVLomvH5S9pyVWLUQsC8DskHRF3OmJV4bMUB/OIQfFokBa1slISij0703elCYg+o5D6r1iVflOz/KLzdfP8PHIAzs1uau2VTzT9Fsr07b02a6stW8S7pqP8quxg/herW+jU/3q2/t9vCYX6N9uAmX1fe1lbt9HvX9KFvfnubk9LaAYA6oyXCWyWJc7FBMZFaJYnGBAvJFJrAoFzOYYDadXlBa9OgE1DQF5dy81vgSdVBHTGfJIpmQ5q/1G9criyLvDzdM+R8+RHT9pocTL9P039sOAH/5CVE2veuaAgAA",
+					"encodedBody": true,
+					"headers": {
+						"Connection": [
+							"close"
+						],
+						"Content-Encoding": [
+							"gzip"
+						],
+						"Content-Type": [
+							"application/json; charset=utf-8"
+						],
+						"Date": [
+							"Fri, 15 Mar 2019 00:08:47 GMT"
+						],
+						"Etag": [
+							"W/\"29a-/dZLhLr2fv9AD9pRXjcfANJ89k0\""
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"nginx"
+						],
+						"Set-Cookie": [
+							"sails.sid=s%3A9MFhN-QpJm07aIzykZrFiJvrsjA1LWmm.DnKx2JlhhaF9sHeR9YBx97RwkI%2BxxeES8xpzBZdEmI8; Path=/; HttpOnly"
+						],
+						"Transfer-Encoding": [
+							"chunked"
+						],
+						"Vary": [
+							"Accept-Encoding"
+						]
+					},
+					"templated": false
+				}
+			}
+		],
+		"globalActions": {
+			"delays": [],
+			"delaysLogNormal": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v5",
+		"hoverflyVersion": "v1.0.0-rc.2",
+		"timeExported": "2019-03-15T11:08:42+11:00"
+	}
+}
